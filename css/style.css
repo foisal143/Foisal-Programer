@@ -549,6 +549,9 @@ footer {
     height: 50vh;
     margin-top: 100px;
   }
+  .intro-conteiner .text:hover {
+    box-shadow: none;
+  }
   .intro-conteiner .text h1 {
     margin-top: 15px;
     font-size: 30px;
