@@ -534,7 +534,7 @@ footer {
   }
   .nav-menu .hire {
     position: relative;
-    top: 150px;
+    top: 20vh;
     left: -6px;
   }
   header {
@@ -546,7 +546,7 @@ footer {
   }
   .intro-conteiner .text {
     width: 80%;
-    height: 40vh;
+    height: 50vh;
     margin-top: 100px;
   }
   .intro-conteiner .text h1 {
