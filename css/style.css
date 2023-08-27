@@ -568,7 +568,36 @@ footer {
   .about {
     width: 100%;
   }
+  .ab-text p {
+    font-size: 14px;
+    line-height: 20px;
+  }
   span {
     font-size: 1.5rem;
+  }
+  .skills {
+    height: 100vh;
+  }
+  .skill-menu {
+    width: 100%;
+    flex-direction: column;
+  }
+  .skill-menu .skill {
+    width: 70%;
+    height: 35%;
+    margin: 10px;
+  }
+  .skill-menu .skill p {
+    line-height: 18px;
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+  }
+  .skill-head {
+    position: relative;
+    top: -30px;
+  }
+  .skill-menu .skill i {
+    margin-top: 2px;
   }
 }
