@@ -28,6 +28,11 @@ nav {
   height: 70px;
   /* border-bottom: 1px solid #f2ebeb; */
 }
+nav i {
+  font-size: 2.3rem;
+  margin-right: 30px;
+  display: none;
+}
 .nav-logo {
   width: 12vw;
   height: 3vw;
@@ -478,3 +483,92 @@ footer {
   font-weight: normal;
 }
 /* footer end */
+
+/* responsive part start */
+
+@media (max-width: 600px) {
+  nav i {
+    display: block;
+    cursor: pointer;
+    /* position: absolute;
+    left: 20px; */
+    z-index: 5;
+  }
+
+  .nav-logo {
+    width: 30vw;
+    height: fit-content;
+    position: relative;
+    left: -50px;
+    z-index: 5;
+  }
+  .nav-logo img {
+    width: 30vw;
+    height: 8vw;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+  .nav-menu ul {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    left: -10px;
+    top: 300px;
+  }
+  .nav-menu ul li {
+    margin: 20px;
+  }
+  .nav-menu.show {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2fa5d6;
+    position: absolute;
+    left: 0px;
+    z-index: 3;
+  }
+  .nav-menu .hire {
+    position: relative;
+    top: 120px;
+    left: -6px;
+  }
+  header {
+    flex-direction: column;
+  }
+  header .intro-conteiner {
+    width: 100%;
+    height: 60vh;
+  }
+  .intro-conteiner .text {
+    width: 80%;
+    height: 80%;
+  }
+  .intro-conteiner .text h1 {
+    margin-top: 15px;
+  }
+  .space {
+    width: 70%;
+    height: 1px;
+  }
+  header .img-conteiner {
+    width: 100%;
+    height: 50vh;
+  }
+  .img-conteiner .img {
+    margin-top: 40px;
+    height: 80%;
+  }
+  .about-sec {
+    height: 50vh;
+  }
+  .about {
+    width: 100%;
+  }
+  span {
+    font-size: 1.5rem;
+  }
+}
