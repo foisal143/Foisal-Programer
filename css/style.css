@@ -520,7 +520,7 @@ footer {
     top: 300px;
   }
   .nav-menu ul li {
-    margin: 20px;
+    margin: 10px;
   }
   .nav-menu.show {
     display: flex;
