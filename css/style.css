@@ -526,7 +526,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: 150vw;
     background-color: #2fa5d6;
     position: absolute;
     left: 0px;
@@ -534,7 +534,7 @@ footer {
   }
   .nav-menu .hire {
     position: relative;
-    top: 170px;
+    top: 150px;
     left: -6px;
   }
   header {
@@ -546,10 +546,16 @@ footer {
   }
   .intro-conteiner .text {
     width: 80%;
-    height: 80%;
+    height: 60vw;
   }
   .intro-conteiner .text h1 {
     margin-top: 15px;
+    font-size: 30px;
+  }
+  .intro-conteiner .text p {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .space {
     width: 70%;
