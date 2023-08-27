@@ -320,6 +320,7 @@ header .img-conteiner {
   line-height: 25px;
 }
 /* skill sec end */
+/* project sec start */
 .project-sec {
   width: 100%;
   height: 50vh;
@@ -574,20 +575,21 @@ footer {
     height: 80%;
   }
   .about-sec {
-    height: 50vh;
+    height: 55vh;
   }
   .about {
     width: 100%;
   }
   .ab-text p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
+    margin: 0;
   }
   span {
     font-size: 1.5rem;
   }
   .skills {
-    height: 100vh;
+    height: 150vh;
   }
   .skill-menu {
     width: 100%;
@@ -595,7 +597,7 @@ footer {
   }
   .skill-menu .skill {
     width: 70%;
-    height: 35%;
+    height: 45%;
     margin: 10px;
   }
   .skill-menu .skill p {
@@ -610,5 +612,43 @@ footer {
   }
   .skill-menu .skill i {
     margin-top: 2px;
+  }
+  .project-sec {
+    height: 170vh;
+  }
+  .projects {
+    flex-direction: column;
+  }
+  .project {
+    width: 70%;
+    height: 33%;
+    margin: 10px;
+  }
+  .project p {
+    font-size: 14px;
+    margin: 0;
+  }
+  .project h3 {
+    font-size: 16px;
+    margin: 5;
+  }
+  .project #p-1 {
+    margin: 2px;
+  }
+
+  .contuct-area {
+    height: 50vh;
+  }
+  .contuct {
+    width: 90%;
+  }
+  .mail-area .mail {
+    width: 100%;
+  }
+  .foot-text {
+    width: 100%;
+  }
+  .foot-text small {
+    font-size: 12px;
   }
 }
