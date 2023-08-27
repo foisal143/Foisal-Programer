@@ -518,7 +518,7 @@ footer {
 
     position: relative;
     left: -10px;
-    top: 300px;
+    top: 200px;
   }
   .nav-menu ul li {
     margin: 10px;
@@ -534,9 +534,10 @@ footer {
     z-index: 3;
   }
   .nav-menu .hire {
-    position: relative;
+    /* position: relative;
     top: 20vh;
-    left: -6px;
+    left: -6px; */
+    display: none;
   }
   header {
     flex-direction: column;
