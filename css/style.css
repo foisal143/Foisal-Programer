@@ -124,6 +124,7 @@ header .intro-conteiner {
 .intro-conteiner .text h1 {
   font-size: 2.5rem;
   margin-top: 70px;
+  font-family: 'Roboto Slab', serif;
 }
 .intro-conteiner .text h1 span {
   color: #7091f5;
@@ -131,6 +132,7 @@ header .intro-conteiner {
 .intro-conteiner .text p {
   margin: 20px 0;
   line-height: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 .intro-conteiner .typing-text {
   font-size: 30px;
@@ -264,9 +266,11 @@ header .img-conteiner {
   border-bottom: 2px solid white;
   display: inline-block;
   margin: 20px;
+  font-family: 'Roboto Slab', serif;
 }
 .ab-text p {
   line-height: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 /* about section end */
 /* skills section start */
@@ -285,6 +289,9 @@ header .img-conteiner {
   margin: 10px;
   border-bottom: 2px solid black;
   width: fit-content;
+}
+.skill-head h2 {
+  font-family: 'Roboto Slab', serif;
 }
 .skill-menu {
   width: 85%;
@@ -322,9 +329,11 @@ header .img-conteiner {
 .skill-menu .skill #js {
   color: #e09e27;
 }
+
 .skill-menu .skill p {
   margin-left: 15px;
   line-height: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 /* skill sec end */
 /* project sec start */
@@ -375,6 +384,9 @@ header .img-conteiner {
   margin: 20px;
   border-bottom: 2px solid black;
 }
+.project-head h2 {
+  font-family: 'Roboto Slab', serif;
+}
 .project small {
   margin: 5px;
   padding: 5px;
@@ -384,10 +396,12 @@ header .img-conteiner {
 }
 .project h3 {
   margin: 5px;
+  font-family: 'Roboto Slab', serif;
 }
 .project p {
   margin: 5px;
   line-height: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 .project #p-1 {
   margin: 20px;
@@ -417,6 +431,9 @@ header .img-conteiner {
 .contuct-head {
   margin: 20px;
   border-bottom: 2px solid black;
+}
+.contuct-head h2 {
+  font-family: 'Roboto Slab', serif;
 }
 .contuct {
   width: 85%;
@@ -467,6 +484,7 @@ header .img-conteiner {
 }
 .mail-area p {
   line-height: 25px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 /* footer start */
 footer {
@@ -570,6 +588,7 @@ footer {
     font-size: 14px;
     margin-top: 0px;
     margin-bottom: 0px;
+    font-family: 'Nanum Gothic', sans-serif;
   }
   .space {
     width: 70%;
